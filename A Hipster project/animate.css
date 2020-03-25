@@ -1,0 +1,22 @@
+.mydiv
+  {
+  position:relative;
+  right: 0;
+  color: white;
+  -webkit-animation: mymove 3s linear; /* Chrome, Safari, Opera */
+  animation: mymove 3s linear;
+  opacity: 1;
+}
+ 
+ @-webkit-keyframes mymove {
+  0%{right: 500px;opacity: 0;}
+  50% {right: 500px;opacity: 0; transform: translateX(-20px) rotate(45deg);}
+}
+ @keyframes mymove {
+  0%{right: 500px;opacity: 0;}
+  50% {right: 500px;opacity: 0;transform: translateX(-20px) rotate(45deg);}
+}
+  
+ 
+  
+ 
